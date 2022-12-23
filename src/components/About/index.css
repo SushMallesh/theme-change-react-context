@@ -1,0 +1,33 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.dark-theme-about-container {
+  background-color: #000000;
+}
+.about-image {
+  width: 150px;
+  height: 150px;
+}
+@media (min-width: 768px) {
+  .about-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+.about-heading {
+  color: #1e293b;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+@media (min-width: 768px) {
+  .about-heading {
+    font-size: 38px;
+  }
+}
+.dark-theme-about-heading {
+  color: #ffffff;
+}
